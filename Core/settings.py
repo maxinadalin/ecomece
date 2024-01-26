@@ -38,7 +38,7 @@ DJANGO_APPS = [
 ]
 
 PROJECT_APPS = ['apps.user',]
-ECOMMERCE_APPS = []
+ECOMMERCE_APPS = ['apps.category']
 # en este array lo qe hacemos es instalar todo lo que instalamos en el requirements.txt
 THIRD_PARTY_APPS=[
     'corsheaders',

@@ -9,6 +9,7 @@ import Activacion from "./containers/Activar";
 import Logueo from "./containers/Loguear";
 import RecoverPass from "./containers/auth/recoverPass";
 import ResetPasswordConfirm from "./containers/PasswordConfirm";
+import Categoria from "./containers/categories/categoria";
 
 
 function App() {
@@ -24,6 +25,11 @@ function App() {
         <Route path="/Login" element={<Logueo/>}></Route>
         <Route path="/Recuperacion" element={<RecoverPass/>}></Route>
         <Route path="/password/reset/confirm/:uid/:token" element={<ResetPasswordConfirm/>}></Route>
+
+        {/* categorias */}
+        <Route path="/categories" element={<Categoria/>}></Route>
+
+
 
       </Routes>
     </Router>
